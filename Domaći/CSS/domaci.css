@@ -1,0 +1,71 @@
+h2, p, ul, ol{
+	font-family: "bookman old style", "book antiqua", "century gothic", sans-serif;
+	font-size: 21px;
+	color: #330011;
+	text-indent: 60px;
+}
+
+h2, p{
+	text-align: center;
+
+}
+
+ul, ol{
+	text-align: left;
+	font-weight: bold;
+}
+
+/* Valjalo bi da tekst ima poravnanje sa leve strane,
+iako je centriran. */
+
+body{
+	background-image: url(https://images.pexels.com/photos/126590/pexels-photo-126590.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+	background-size: 100%;
+}
+
+h2 {
+	background-color: rgba(229, 193, 193, 0.6);
+	display: block;
+	margin-top: 12px;
+	margin-bottom: 11px;
+	margin-left: 4px;
+	margin-right: 5px;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.prvi{ word-spacing: 0.3em;
+	letter-spacing: 0.3em;
+
+}
+
+.drugi { font-style: italic;
+	font-size: 22px;
+	line-height: 1.5em;
+	color: #19080e;
+}
+
+.deo{
+	font-variant: small-caps;
+}
+
+p: nth-child (6){
+	text-transform: uppercase;
+}
+
+#zavrsni{
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+#footer{
+	text-align: right;
+}
