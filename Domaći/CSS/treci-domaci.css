@@ -1,0 +1,77 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #e6ffe6;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-indent: 40px;
+	text-align: justify; 
+}
+
+header{
+	margin: 50px;
+	border-bottom: dotted;
+	padding-bottom: 20px;
+	font-size: 25px;
+	text-shadow: 5px 2px 4px grey; 
+}
+
+
+#prazno{
+	background-color: #e6ffe6;
+}
+
+#decaci{
+	background-color: #d6defc;
+}
+
+#devojcice{
+	background-color: #fce8e8;
+}
+
+
+#prvi{
+	margin: 30px 50px 0 60px;
+	width: 40%;
+	float: left;	
+}
+
+#drugi{
+	width: 45%;
+	float: right;
+	margin-right: 60px;
+}
+
+.prva{
+	clear: both;
+}
+
+table{
+    border-collapse: collapse;
+    width: 40%;
+    margin: 30px 50px;
+    float: left;
+    }
+
+table, tr, td, th{
+    border: 1px solid black;
+}
+
+td, th{
+    text-align: center;
+    padding: 4px;
+}
+
+tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+#treci{
+	width: 45%;
+	margin: 10px 60px;
+}
+
+footer{
+	text-align: right;
+	margin: 0 7px 10px 0;
+	font-size: 15px;
+}
